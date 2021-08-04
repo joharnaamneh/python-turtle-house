@@ -1,0 +1,43 @@
+from turtle import *
+from math import *
+t = Turtle()
+
+t.pendown()
+t.home() 
+for i in range(4):
+    t.forward(100)
+    t.right(90)
+t.setheading(90)
+t.right(45)
+t.forward(sqrt(100**2/2))
+t.right(90)
+t.forward(sqrt(100**2/2))
+t.penup()
+t.goto(25, -100)
+t.pendown()
+t.setheading(90)
+t.forward(50)
+t.left(90)
+t.forward(20)
+t.left(90)
+t.forward(50)
+t.penup()
+t.goto(75, -25)
+t.pendown()
+for i in range(4):
+    t.forward(20)
+    t.left(90)
+t.forward(10)
+t.left(90)
+t.forward(20)
+t.right(90)
+t.forward(10)
+t.right(90)
+t.forward(10)
+t.right(90)
+t.forward(20)
+t.penup()
+t.goto(0,0)
+t.pendown()
+
+
